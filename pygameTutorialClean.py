@@ -160,7 +160,7 @@ test_font = pygame.font.Font('font/Pixeltype.ttf', 50) # takes font type (file o
 game_active = False
 start_time = 0
 score = 0
-background_music = pygame.mixer.Sound('audio/background_music.wav')
+background_music = pygame.mixer.Sound('audio/background_music_trimmed.wav')
 background_music.set_volume(0.1)
 background_music.play(loops=True)
 
